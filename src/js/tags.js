@@ -88,7 +88,7 @@ const tags = (function () {
                 }
             }
         });
-        appendTagDivs(options.field === 'keywords' ? 'other' : '', 'unclassified tags', tagDivs, containerDiv);
+        appendTagDivs(options.field === 'keywords' ? 'other' : '', 'Additional tags', tagDivs, containerDiv);
         filterTags(tagCloudDiv);
     }
 

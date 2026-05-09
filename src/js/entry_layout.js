@@ -219,6 +219,8 @@ const entryLayout = (function () {
         if (!series) {
             if (entry['type'] == 'article') {
                 series = entry['journal'];
+            } else if (entry['type'] == 'inproceedings') {
+                series = entry['booktitle']
             } else {
                 series = '[' + entry['type'] + ']'
             }
