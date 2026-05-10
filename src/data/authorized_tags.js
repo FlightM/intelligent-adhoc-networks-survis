@@ -6,18 +6,27 @@ const userDefinedAuthorizedTags = {
 		"description": "Work published in a conference proceeding."
 	},
 	"Type:survey": {
-		"description": "Summary of a composition of works; may be published in a journal."
+		"description": "Summaries of a composition of works."
 	},
-	"comm. focus:messaging": {
-		"description": "Messaging one person, a group of people, or anyone available."
+	"routing type:adaptive": {
+		"description": "Uses real-time network state information to dynamically adjust routes"
+	},
+	"routing type:static": {
+		"description": "Implements a largely consistent approach to determining routes"
 	},
 	"comm. focus:content delivery": {
-		"description": "Delivering internet content."
+		"description": "Oriented around the delivery of general internet content."
+	},
+	"comm. focus:messaging": {
+		"description": "Specifically oriented around delivering word-based digital messages"
 	},
 	"comm. focus:agnostic": {
-		"description": "Largely applicable to either messaging or content delivery."
+		"description": "Largely applicable to either content delivery or messaging."
 	},
-	"comm. focus:other": {
-
+	"app. scen. sens.:standard": {
+		"description": "Largely oriented around general data delivery"
+	},
+	"app. scen. sens.:high": {
+		"description": "Specifically designed to be used in highly-sensitive situations like political protests or to shield user privacy"
 	}
 }

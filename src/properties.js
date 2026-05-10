@@ -47,7 +47,7 @@ var tagCloudOptions = [{
  * If BibTeX entries (and tags) should be editable
  * @type {boolean}
  */
-var editable = true;
+var editable = false;
 
 /**
  * Subtitle describing the paper the data is referring to (set to null to deactivate)
@@ -78,7 +78,7 @@ var customStyle = '';
  * minCitationCount: minimum number of citations of a paper to be displayed in the visualization
  * @type {{minCitationCount: number}}
  */
-/* var citations = {
-    minCitationCount: 5
-}; */
+// var citations = {
+//     minCitationCount: 0
+// };
 var citations = null;
