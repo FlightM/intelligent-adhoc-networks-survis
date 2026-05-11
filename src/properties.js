@@ -2,7 +2,7 @@
  * Name as used as title for the main page
  * @type {string}
  */
-var title = 'Secure and Intelligent Data Routing in Ad-hoc Mobile Networks: An Abridged Survey';
+var title = 'Secure and Intelligent Data Routing in Heterogeneous Ad-hoc Mobile Networks';
 
 /**
  * Relative path to the data directory
